@@ -44,3 +44,5 @@ def good_algorithm(filename):
 if __name__ == "__main__":
     bad_algorithm("patients.txt")
     good_algorithm("patients.txt")
+
+    # consider: abdominal pain, 
