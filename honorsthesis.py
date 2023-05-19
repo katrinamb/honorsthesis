@@ -53,7 +53,7 @@ def good_algorithm(filename):
                     print(f"Patient {info[0]} has a moderate headache. Please suggest that they take ibuprofen.\n")
         elif (info[3] == "Stomachache"):
             if (info[1] == "Female"):
-                ask = input("On a scale of 1-10, rate your stomachahe: ")
+                ask = input("On a scale of 1-10, rate your stomachache: ")
                 if (int(ask) > 3):
                     # weighed it since the pain women have tends to be dismissed
                     print(f"Patient {info[0]} has a bad stomachache. Consider further healthcare inspections.\n")
